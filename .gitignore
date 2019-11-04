@@ -1,0 +1,38 @@
+syntax: glob
+
+# vscode
+**/.vs
+
+# makefile build
+**/build
+
+# TrueStudio build
+**/Debug
+
+
+# https://stackoverflow.com/questions/38580486/typical-gitignore-files-for-iar-project/39983457
+# https://www.iar.com/support/tech-notes/ide/which-files-should-be-version-controlled/
+
+# IAR build
+**/Exe
+**/List
+**/Obj
+
+# IAR Settings  
+**/settings/*.crun  
+**/settings/*.dbgdt  
+**/settings/*.cspy  
+**/settings/*.cspy.*  
+**/settings/*.xcl  
+**/settings/*.dni  
+**/settings/*.wsdt  
+**/settings/*.wspos  
+
+# KeilC build
+**/build
+
+# KeilC Settings
+*.uvguix.*
+
+# TrueStudio build
+**/Debug
